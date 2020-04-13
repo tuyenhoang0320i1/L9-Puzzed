@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<img id="img1" src="apple.PNG" onclick="changeImage();"/>
+<br/>
+<img id="img2" src="orange.PNG" onclick="changeImage();"/>
+<br/>
+<img id="img3" src="pear.PNG" onclick="changeImage();"/>
+<br/>
+<input type="button" onclick="checkImgae();" value="CheckWin"/>
+<script>
+    let img = document.getElementById("img1");
+
+    let img1 ="apple.PNG";
+    let img2 ="orange.PNG";
+    let img3 ="pear.PNG";
+
+    function image1() {
+        let img = document.getElementById("img1");
+        if ((img). src = img1){
+            img. src = img2;
+        } else if (idImgOne. src = img2) {
+            img. src = img3;
+        } else {
+            img. src = img1;
+        }
+    }
+    function image1() {
+        let img = document.getElementById("img2");
+        if ((img). src = img2){
+            img. src = img3;
+        } else if (idImgOne. src = img3) {
+            img. src = img1;
+        } else {
+            img. src = img2;
+        }
+    }
+    function image1() {
+        let img = document.getElementById("img3");
+        if ((img). src = img3){
+            img. src = img1;
+        } else if (idImgOne. src = img1) {
+            img. src = img2;
+        } else {
+            img. src = img3;
+        }
+    }
+
+</script>
+</body>
+</html>
